@@ -17,3 +17,15 @@ a {
     
 }
 
+section#articles{
+    display: flex;
+    flex-direction: column;
+
+    gap: 46px;
+
+    max-width: 1240px;
+
+    margin: 5rem auto;
+    padding: 0 2rem;
+
+}
