@@ -1,0 +1,61 @@
+header {
+    background-color: #333333;
+    box-shadow: 0 4px 7px rbga(0, 0, 0, 0.25);
+}
+
+header nav#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1240px;
+
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    height: 100px;
+}
+
+header nav#nav-bar img{ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+header nav#nav-bar, .nav-img {
+    display: flex;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+header nav#nav-bar, .nav-img h1 {
+    font-family:  "Grenze", serif;
+    font-weight: 400;
+    font-size: 2rem;
+
+
+}
+
+header nav#nav-bar ul.nav-list {
+    display: flex;
+    align-items: center;
+   
+    gap: 1rem;
+
+    list-style: none;
+}
+
+header nav#nav-bar ul.nav-list li a {
+    color: #cccccc;
+    font-size: 1.1rem;
+
+    transition: 0.3s;
+}
+header nav#nav-bar ul.nav-list li a:hover {
+    color: white;
+
+    transition: 0.3s;
+
+}
